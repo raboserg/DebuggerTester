@@ -1,0 +1,8 @@
+﻿/.vs/helper-trader-dll/v15
+/Backup
+/Debug
+/x64
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+/UpgradeLog.htm
