@@ -13,6 +13,7 @@ public:
 	std::list<DWORD> GetProcessThreads(const DWORD dwProcessId);
 	CONTEXT GetThreadContext(const DWORD threadId);
 	bool IsWow64(DWORD dwProcessID, BOOL &isWow64);
+	DWORD getProcessId();
 private:
 	HANDLE hProcess;
 	DWORD dwProcessId;

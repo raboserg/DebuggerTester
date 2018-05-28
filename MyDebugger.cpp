@@ -17,6 +17,9 @@ Debugger::~Debugger(){
 		CloseHandle(this->hProcess);
 }
 
+DWORD Debugger::getProcessId() {
+	return this->dwProcessId;
+}
 
 void Debugger::LoadProcess(PCTSTR pszPathToExe, const DWORD dwCreationFlags){
 	STARTUPINFO si;
